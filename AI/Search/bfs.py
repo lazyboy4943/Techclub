@@ -1,7 +1,7 @@
 from maps import *
 import colorama
 
-map = map4
+map = map1
 
 # function to display the map
 def displaymap(maptoprint):
