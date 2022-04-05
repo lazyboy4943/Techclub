@@ -113,9 +113,7 @@ for row in range(len(map)):
         else:
             map[row][cell] = colorama.Style.RESET_ALL + map[row][cell]
 
-for cell in shortestpath:
-    map[cell[0]][cell[1]] = colorama.Back.GREEN + map[cell[0]][cell[1]]
-    colorama.Style.RESET_ALL
+
 
 displaymap(map)
 
